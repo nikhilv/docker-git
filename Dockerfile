@@ -2,7 +2,7 @@
 #
 # VERSION       1
 FROM ubuntu
-MAINTAINER Nikhil Vaze, nvaze@electric-cloud.com
+MAINTAINER Nikhil Vaze
 RUN apt-get update -y
 RUN apt-get install wget make -y
 RUN apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev -y
